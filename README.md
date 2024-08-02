@@ -18,3 +18,13 @@ Prerequisites
 - A computer with a USB port
 - USB Serial Communication Library (usb_serial version 0.5.2)
 
+## Installation
+
+Connect the Display Module: Use the USB cable to connect your 3.5 inch display module to your computer.
+### Clone the Repository:
+
+- Copy code
+- git clone https://github.com/yourusername/3.5inch-QR-Code-Display.git
+- cd 3.5inch-QR-Code-Display
+
+
