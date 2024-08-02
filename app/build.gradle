@@ -1,15 +1,18 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 32
     defaultConfig {
-        targetSdkVersion 28
-        minSdkVersion 18
+        targetSdkVersion 32
+        minSdkVersion 19
         vectorDrawables.useSupportLibrary true
 
-        applicationId "de.kai_morich.simple_usb_terminal"
+        applicationId "com.easovation.customerfacingqrdisplay_bt"
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -24,7 +27,13 @@ android {
 }
 
 dependencies {
-    implementation project(':usbSerialForAndroid')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.github.mik3y:usb-serial-for-android:3.4.6' // maven jitpack
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.1'
+    implementation 'io.github.florent37:shapeofview:1.4.7'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+//    implementation 'org.eclipse.paho:org.eclipse.paho.mqttv5.client:1.2.5'
 }

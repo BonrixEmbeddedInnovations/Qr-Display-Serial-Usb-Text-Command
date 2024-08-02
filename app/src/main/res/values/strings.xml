@@ -1,4 +1,23 @@
 <resources>
-    <string name="app_name">Simple USB Terminal</string>
+    <string name="app_name">Customer Facing QR Code Display</string>
     <string name="devices">USB Devices</string>
+    <string name="support_message">If you need a help.</string>
+    <string name="get_in_touch">Get in Touch!</string>
+    <string name="bonrix">Bonrix Software System</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="sales_support">Sales Support</string>
+    <string name="whatsapp_support">WhatsApp Support</string>
+    <string name="support_email">Support Email</string>
+    <string name="sales_email">Sales Email</string>
+    <string name="address">Address</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="qr_generate_bluetooth">QR Generate-Bluetooth</string>
+    <string name="btdevices">Bluetooth Devices</string>
+    <string name="qr_generate_ble_n_bluetooth_low_energy">Qr Generate-BLE\n(Bluetooth Low Energy)</string>
+    <string name="upi_setting">UPI Setting</string>
+    <string name="bluetooth_ble">Bluetooth BLE\nBluetooth Low Energy</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
 </resources>
